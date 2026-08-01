@@ -1,23 +1,67 @@
-# Harish Kumar Saini — Portfolio
+# 🌐 Harish Saini — Portfolio
 
-A single-page static portfolio site. No build step required.
+My personal portfolio website, built to showcase who I am, my skills, and my work — along with my resume, all in one place.
 
-## Deploy to Vercel
+🔗 **Live Site:** [Portfolio](https://harish-kumar-saini.vercel.app)
 
-**Option A — Vercel CLI (fastest)**
-```bash
-npm i -g vercel
-cd portfolio
-vercel
+---
+
+## 📌 About
+
+This is a simple, clean, single-page portfolio website built with plain HTML, CSS, and JavaScript. It includes:
+
+- An introduction / about me section
+- My photo
+- My resume (downloadable)
+- Contact / social links
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** — structure
+- **CSS3** — styling
+- **JavaScript** — interactivity
+
+---
+
+## 📁 Project Structure
+
 ```
-Follow the prompts (accept defaults — it's a static site, no framework, no build command). Run `vercel --prod` to push to production.
+portfolio/
+│
+├── index.html          # Main website file
+├── assets/
+│   ├── resume.pdf       # My resume
+│   └── photo.jpg        # My profile photo
+└── README.md
+```
 
-**Option B — GitHub + Vercel dashboard**
-1. Push this folder to a new GitHub repo.
-2. Go to https://vercel.com/new and import the repo.
-3. Framework preset: **Other** (or "Static"). Leave build command empty and output directory as `.` (or root).
-4. Click **Deploy**.
+---
 
-## Editing
+## 🚀 Deployment
 
-Everything lives in `index.html` — content, styles, and the typing/scroll-reveal script are all inline, so it's easy to tweak in one place. Update project links, contact info, or copy directly in the HTML.
+This project is deployed using **Vercel**.
+
+To deploy your own copy:
+
+1. Fork or clone this repository
+2. Go to [vercel.com/new](https://vercel.com/new)
+3. Import this repository
+4. Framework Preset: **Other**
+5. Leave Build Command and Output Directory empty
+6. Click **Deploy**
+
+---
+
+## 📬 Contact
+
+- **Email:** sainisaab.8700@gmail.com
+- **LinkedIn:** [LinkedIn](https://linkedin.com/in/harish-kumar-saini)
+- **GitHub:** [GitHub](https://github.com/Harishsaini1812)
+
+---
+
+## ⭐ Show your support
+
+If you liked this portfolio, please do give this repo a ⭐!
